@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Reservations</title>
+    <style>
+        body { font-family: Arial, sans-serif; }
+        form { margin-bottom: 20px; }
+    </style>
+</head>
+<body>
+    <h1>Reservatons</h1>
+    <form id="reservationForm">
+        <input type="text" id="name" placeholder="Your Name" required />
+        <input type="date" id="date" required />
+        <input type="number" id="partySize" placeholder="Party Size" required />
+        <button type="submit">Reserve</button>
+    </form>
+    <h2>Reservations:</h2>
+    <ul id="reservationsList"></ul>
+    <script src="script.js"></script>
+</body>
+</html>
